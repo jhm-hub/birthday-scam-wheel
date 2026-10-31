@@ -1,0 +1,16 @@
+{
+  "tool": "Built-in image_gen",
+  "date": "2026-10-30",
+  "frame": {
+    "path": "assets/royal/wheel-frame-v2.png",
+    "prompt": "Use case: stylized-concept. Make one production game overlay asset on a truly transparent RGBA background, matching the rich shaded pixel-art style of the supplied Crown Vault and Birthday Royalty candy references. They are style references, not edit targets. Primary subject: an ornate circular prize-wheel FRAME only, with a completely transparent circular opening. No wheel wedges, no inner disk, no lettering, no numbers, no scenery. Square canvas. Circle centered exactly in canvas, circular opening diameter about 66% of canvas width, outer ring diameter about 84% of canvas width. Gold beveled trim, rose pink enamel, small faceted lavender jewels and warm cream pearl lights. Rich hand-placed pixel shading, chunky crisp silhouette, upper-left highlights, subtle magenta shadows. A modest three-point gold crown with a lilac heart sits at 12 o'clock on the ring; a soft rose-and-cream satin bow with lilac gemstone sits at 6 o'clock. Both fit entirely in the canvas with a clear margin. Keep left/right symmetric and the central circular aperture totally empty/transparent so a spinning code-rendered wheel can show through. Avoid text, black background, checkerboard painted into image, giant glow, gradients that lose pixel texture, and extra objects inside the opening. Match the references' rose/gold/lavender/mint birthday royalty mood."
+  },
+  "popper": {
+    "path": "assets/royal/party-popper-v2.png",
+    "prompt": "Use case: stylized-concept. Create one isolated upright birthday party popper as a transparent RGBA game sprite. Match the supplied birthday royalty candy reference's rich shaded pixel-art style: rose-pink paper, gold beveled trim, lavender faceted heart gem, cream satin ribbon, tiny mint accents. One medium-short cylindrical party popper pointing straight up, slight view from above, with a cream paper cap and a lavender pull cord hanging from its lower right. Beautifully detailed pixel clusters and top-left highlights, a strong readable silhouette at 110px tall. A small gold crown emblem decorates the pink body. Entire object centered on square canvas with comfortable clear margins; no shadow on a floor, no background, no coins or flying confetti yet, no lettering or numbers, no additional objects. This is the closed/loaded idle state; motion and cash labels are rendered in game code."
+  },
+  "reusedCandy": {
+    "path": "assets/royal/royal-candy.png",
+    "source": "Birthday Pinata's approved royalty-candy-v5.png; copied without pixel edits."
+  }
+}

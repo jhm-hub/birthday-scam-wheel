@@ -1,0 +1,66 @@
+FAITH'S BIRTHDAY SCAM WHEEL — PUBLIC BROWSER EDITION
+October 30, 2026 — Royal Popper update
+
+Open https://jhm-hub.github.io/birthday-scam-wheel/ — no sign-in required.
+For local practice, you can also open Birthday-Scam-Wheel.html.
+No installation is needed for local practice. All artwork, code, and fonts are included.
+
+TRY THE TEN GAMES
+Scroll to The birthday scams. Choose Play this scam to control it yourself,
+or Watch sample to see a complete round play automatically. New round cancels a sample.
+The prices below are starting suggestions for Faith to review, not fixed requirements.
+
+A FULL ROUND
+Enter the player name, press New round, and use Spin twice for normal prizes.
+The third press reveals one of the enabled birthday games. The earlier cash stays banked.
+Use the large button and any choices that appear. The end card shows the final total.
+Pause prevents the next action; a spin already moving is allowed to finish.
+New round cancels the current game and clears that round's total.
+Sound starts off. Enable it with Sound off, then test the audio before streaming.
+
+THE TEN NEW SCAMS
+1. Layer Cake Levy: Three layers. Every new layer charges the whole cake again.
+2. Trick Candle Club: Blow out candles for cash; they relight at higher values.
+3. Balloon Avalanche: Pop a balloon and every connected balloon of its color.
+4. The Plus-One Problem: Add guests; each completed table adds another bonus.
+5. Wishful Spending: Choose two wishes; repeated matches get a bigger bonus.
+6. Musical Shares: A removed chair pays you and shares its value with neighbors.
+   After three removals, the richest surviving chair pays a final throne bonus.
+7. Party Popper Payday: Three spins put visible cash into one popper.
+   Pull the cord to collect everything inside plus the editable birthday bonus.
+8. Ribbon Runaround: Unroll ribbon and collect each milestone bonus you cross.
+9. Birthday Photo Finish: Print three digits, then arrange them into the bill.
+10. Birthday Bingo: Five draws. Every stamp pays; completed lines add bonuses.
+    A repeated number moves clockwise to the next empty square.
+
+MAKE IT YOURS
+Prices & settings edits game names, amounts, enabled games, spin length, and sound level.
+Apply starts a fresh round. Export settings saves a portable backup.
+Imported settings stay in the form until Apply is pressed.
+
+STREAM VIEW / PRIVATE CONTROLS
+Stream setup creates two private links: controls and transparent viewer.
+The viewer runs the game and contains no operator buttons or running totals.
+Open one viewer only, then the matching controls. Closing/reopening controls keeps
+that viewer's round. Refreshing or closing the viewer starts a fresh round.
+Private links contain the room key: keep both complete links private.
+Browser pairing uses PeerJS/WebRTC and requires an internet connection.
+The public GitHub Pages deployment can be used in an OBS/Streamlabs Browser Source.
+Use the generated Transparent viewer link, not the homepage.
+Viewer size: 800 x 900. Disable source shutdown and automatic scene refresh.
+Local practice also supports H to hide/show the controls for a transparent window capture.
+
+OPTIONAL CHAT
+From paired private controls, enter the Twitch channel in Stream setup.
+Broadcaster only by default; moderators can be enabled explicitly.
+The wheel reads chat and never sends chat messages.
+!birthday spin
+!birthday new Player Name
+!birthday demo 1  (choose 1 through 10)
+!birthday pick 1  (wishes or photo order; choices are numbered left to right)
+!birthday confirm  (lock wishes, charge the photo number, or pull the popper cord)
+!birthday pause / !birthday resume
+The original !scam commands are untouched.
+
+This is a separate birthday project. The existing Scam Wheel, Darts, Gift Pile,
+Pinata and Vault projects have not been changed.

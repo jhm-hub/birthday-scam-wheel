@@ -1,0 +1,1 @@
+{"name":"birthday-scam-wheel","version":"0.1.0","private":true,"type":"module","scripts":{"build":"node scripts/build.mjs","test":"node --test test/*.test.mjs"},"dependencies":{"peerjs":"1.5.5"},"devDependencies":{"esbuild":"0.24.2"}}
