@@ -1,0 +1,71 @@
+/* Each catch has a physical reveal; the final receipt stays readable. */
+.twist-layer{position:absolute;inset:0;z-index:12;pointer-events:none}
+.show-twist .wheel-wrap{opacity:.16;filter:blur(1px);transition:opacity .3s,filter .3s}
+.show-twist .party-ornaments,.show-twist .game-plaque,.show-twist .mode-scene{opacity:.15;transition:opacity .3s}
+.scam-reveal{position:absolute;left:90px;right:90px;top:105px;height:690px;border:3px solid #fff0d1;border-radius:28px;background:linear-gradient(155deg,#5d396e,#382743 70%);box-shadow:0 0 0 5px #bc92c3,0 15px 0 #412b4855;text-align:center;overflow:hidden;animation:reveal-arrive .4s both;animation-delay:calc(0s - var(--elapsed))}
+.scam-quote{padding-top:27px;position:relative;z-index:2;height:115px}
+.scam-quote small{display:block;font:12px Arcade;letter-spacing:1.3px;color:#e6c7dc}
+.scam-quote strong{display:block;font:43px/1.25 Arcade;color:#fff1d5;margin-top:7px}
+.scam-catch{position:relative;z-index:2;height:105px;padding:10px 25px 0;animation:catch-in .5s both;animation-delay:calc(1.15s - var(--elapsed))}
+.scam-catch small{font:10px Arcade;letter-spacing:2.5px;color:#f2d0a0}
+.scam-catch h2{font:25px/1.22 Arcade;color:#fff5df;margin:10px auto 0;max-width:540px;text-shadow:0 3px #b06d9c}
+.scam-prop{position:relative;height:273px;margin:0 25px}
+.scam-receipt{position:absolute;bottom:0;left:0;right:0;min-height:171px;background:#fff2da;color:#705079;padding:13px 25px 20px;border-top:3px dashed #d8b2cf;animation:receipt-in .45s both;animation-delay:calc(3.65s - var(--elapsed))}
+.scam-receipt>div{display:flex;align-items:center;justify-content:center;gap:17px}
+.scam-receipt small{font:11px Arcade;letter-spacing:.7px}
+.scam-receipt strong{font:31px Arcade;color:#a43f80}
+.scam-receipt p{font:700 16px/1.35 system-ui;margin:8px 0 10px}
+.scam-receipt>b{font:19px Arcade}
+.cake-unfold{width:270px;height:270px;margin:auto}.cake-unfold svg{width:100%;height:100%;overflow:visible;filter:drop-shadow(0 8px #9d637b)}
+.cake-slice{transform-origin:150px 150px}.cake-slice text{font:16px Arcade;fill:#fff5df;paint-order:stroke;stroke:#906387;stroke-width:1px}
+.extra-slice{animation:slice-reveal .5s both;animation-delay:calc(1.65s + var(--i)*.09s - var(--elapsed))}
+.cake-count{font:21px Arcade;fill:#925e9c;animation:catch-in .4s both;animation-delay:calc(2.3s - var(--elapsed))}
+.relight-bill{display:flex;justify-content:center;gap:36px;padding-top:60px}.bill-candle{position:relative;width:72px}
+.candle-body{height:104px;border:3px solid #fff1d5;border-radius:11px 11px 3px 3px;background:repeating-linear-gradient(-35deg,#bca3e3 0 16px,#ebabc6 16px 32px);box-shadow:inset 8px 0 #ffffff22,inset -8px 0 #7c528433,0 6px #29192f}
+.bill-flame{position:absolute;left:23px;top:-47px;width:27px;height:42px;background:#ffd879;border-radius:60% 40% 55% 45%;box-shadow:inset 0 -12px #fff2c4,0 0 24px #ffd78b66;animation:bill-relight 2.9s both;animation-delay:calc(var(--i)*.12s - var(--elapsed))}
+.bill-candle b{display:block;margin-top:12px;font:24px Arcade;color:#fff2d5;animation:catch-in .45s both;animation-delay:calc(2.2s + var(--i)*.1s - var(--elapsed))}.bill-candle small{display:block;font:10px Arcade;color:#e6b7d1;margin-top:5px}
+.whole-bouquet{display:grid;grid-template-columns:repeat(4,90px);gap:0 8px;justify-content:center;margin-top:-8px}.bill-balloon{height:90px;position:relative;--pink:var(--balloon-color)}
+.bill-balloon .icon{width:82px;height:85px}.bill-balloon b{position:absolute;left:0;right:0;top:22px;font:19px Arcade;color:#fff5da;text-shadow:1px 2px #6a4773}.bill-balloon small{position:absolute;bottom:1px;left:0;right:0;font:8px Arcade;color:#ffe6c7}
+.bill-balloon.paid{opacity:.23;scale:.77}.bill-balloon.unbought{animation:balloon-bill .55s both;animation-delay:calc(1.7s + var(--i)*.045s - var(--elapsed))}
+.guest-waves{padding-top:6px}.guest-wave{height:84px}.guest-wave>small{display:block;font:10px Arcade;color:#f6d9c3;letter-spacing:.6px}.guest-wave>div{height:60px;display:flex;justify-content:center;gap:3px}.guest-wave .icon{width:37px;height:57px}
+.wave-1 span{animation:guest-crash .4s both;animation-delay:calc(1.65s + var(--i)*.07s - var(--elapsed))}.wave-2 span{animation:guest-crash .4s both;animation-delay:calc(2.35s + var(--i)*.045s - var(--elapsed))}
+.wave-1>small,.wave-2>small{animation:catch-in .3s both;animation-delay:calc(1.65s - var(--elapsed))}
+.wish-contract{padding-top:25px}.wish-receipts{display:flex;justify-content:center;gap:13px;align-items:center}.wish-receipts>div{background:#fff2d8;border-radius:5px;padding:17px 13px 20px;min-width:170px;color:#805287;border-bottom:5px dashed #d5add0;transform:rotate(-4deg)}.wish-receipts>div:last-child{transform:rotate(4deg)}.wish-receipts small{font:10px Arcade;display:block}.wish-receipts b{font:29px Arcade;display:block;margin-top:9px}.wish-receipts i{font:26px Arcade}
+.wish-seal{position:relative;width:93px;height:90px;margin:9px auto 0;animation:contract-seal .5s both;animation-delay:calc(2s - var(--elapsed))}.wish-seal>b{position:absolute;inset:20px 0 0;font:31px Arcade;text-shadow:0 3px #885589}.contract-stamp{position:absolute;left:65px;right:65px;top:220px;border:4px solid #fff0ca;background:#b76495;color:#fff0ca;border-radius:8px;padding:9px;font:21px Arcade;transform:rotate(-5deg);animation:stamp-catch .5s both;animation-delay:calc(2.7s - var(--elapsed))}
+.reservation-sign{display:inline-block;padding:10px 30px;border:2px solid #ffe9bd;border-radius:9px;background:#ad80b5;color:#fff2d4;font:18px Arcade;rotate:-3deg}.reservation-sign span{display:block;font:12px Arcade;margin-top:5px;animation:catch-in .3s both;animation-delay:calc(1.8s - var(--elapsed))}
+.reserved-chairs{display:flex;justify-content:center;gap:35px;margin-top:17px}.reserved-chairs>div{animation:reserved-seat .65s both;animation-delay:calc(1.6s + var(--i)*.23s - var(--elapsed))}.reserved-chairs .icon{width:90px;height:105px;display:block}.reserved-chairs b{display:block;font:21px Arcade;margin-top:9px;color:#ffefd0}
+.cleanup-popper{height:270px;position:relative}.cleanup-sprite{width:190px;height:190px;position:absolute;left:calc(50% - 95px);top:33px;animation:cleanup-pop 3.2s both;animation-delay:calc(0s - var(--elapsed))}.cleanup-sprite .icon{width:100%;height:100%}
+.cleanup-tickets{position:absolute;inset:0}.fee-ticket{position:absolute;left:calc(50% - 33px);top:133px;border:2px solid #fff5d5;background:#daa2c5;color:#744775;width:66px;padding:9px 3px;font:17px Arcade;box-shadow:0 3px #7a4e7c;border-radius:5px;animation:fee-explosion 1.6s both;animation-delay:calc(1.8s + var(--i)*.035s - var(--elapsed))}
+.ticket-count{position:absolute;bottom:3px;left:0;right:0;color:#ffecca;font:15px Arcade;animation:catch-in .35s both;animation-delay:calc(3s - var(--elapsed))}
+.inch-trap{padding-top:30px}.ribbon-label{height:53px;position:relative;font:31px Arcade;color:#ffeac6}.ribbon-label span{animation:old-unit-out .35s both;animation-delay:calc(1.8s - var(--elapsed))}.ribbon-label b{position:absolute;inset:0;animation:catch-in .4s both;animation-delay:calc(2.1s - var(--elapsed))}
+.inch-ruler{display:grid;grid-template-columns:repeat(12,1fr);width:480px;height:62px;margin:12px auto;background:repeating-linear-gradient(-45deg,#e1a2c0 0 15px,#c3a7e9 15px 30px);border:3px solid #fff1d5;border-radius:5px;box-shadow:0 5px #805481}.inch-ruler>div{border-right:2px solid #fff1d5;position:relative;animation:inch-mark .3s both;animation-delay:calc(1.7s + var(--i)*.06s - var(--elapsed))}.inch-ruler span{position:absolute;bottom:5px;left:0;right:0;font:14px Arcade;color:#6b4677}
+.price-tag{display:inline-flex;align-items:center;gap:12px;background:#fff1d5;color:#82548b;border-radius:5px;padding:9px 19px;font:21px Arcade}.price-tag span{font-size:12px;text-decoration:line-through;animation:old-unit-out .3s both;animation-delay:calc(1.8s - var(--elapsed))}.price-tag b{font:15px Arcade;color:#b04680;animation:catch-in .4s both;animation-delay:calc(2.3s - var(--elapsed))}
+.digit-scam{width:390px;height:250px;position:relative;margin:18px auto 0}.scam-photo{position:absolute;left:calc(var(--from)*130px + 8px);top:28px;width:110px;height:153px;background:#fff0d9;padding:9px;color:#81538d;box-shadow:0 6px #a879aa;transform:rotate(var(--angle));animation:digit-join 1s cubic-bezier(.22,.85,.22,1) both;animation-delay:calc(1.9s - var(--elapsed))}.scam-photo>div{display:grid;place-items:center;height:111px;background:linear-gradient(135deg,#dfa7c9,#b294d7);color:#fff0d1;font:70px Arcade;text-shadow:0 4px #9e6ba4}.scam-photo small{font:7px Arcade;display:block;margin-top:11px}.photo-plus{position:absolute;top:89px;font:24px Arcade;animation:sign-vanish .4s both;animation-delay:calc(1.6s - var(--elapsed))}.plus-a{left:119px}.plus-b{left:249px}.digit-dollar{position:absolute;left:-37px;top:70px;font:52px Arcade;color:#ffedc4;animation:catch-in .4s both;animation-delay:calc(2.8s - var(--elapsed))}.digit-caption{position:absolute;bottom:23px;left:-20px;right:-20px;font:15px Arcade;color:#ffedc4;animation:catch-in .3s both;animation-delay:calc(2.9s - var(--elapsed))}
+.coupon-stage{perspective:800px;height:260px;display:grid;place-items:center}.coupon-flip{width:355px;height:205px;position:relative;transform-style:preserve-3d;animation:coupon-turn .95s cubic-bezier(.2,.7,.2,1) both;animation-delay:calc(1.8s - var(--elapsed))}.coupon-front,.coupon-back{position:absolute;inset:0;border:4px dashed #fff2d6;border-radius:20px;backface-visibility:hidden;background:linear-gradient(135deg,#bca0e3,#9974bb);padding:19px 12px;box-shadow:0 5px #2a1838}.coupon-back{transform:rotateY(180deg);background:linear-gradient(135deg,#df9ec1,#bd6c9f)}.coupon-flip small{font:10px Arcade;letter-spacing:1px;display:block}.coupon-flip strong{display:block;font:52px/1.2 Arcade;margin-top:9px}.coupon-flip b{font:25px Arcade;display:block}.coupon-flip span{font:10px Arcade;display:block;margin-top:10px}
+.ribbon-preview,.coupon-preview{display:grid;grid-template-columns:75px auto;align-content:center;justify-content:center;height:155px;gap:10px 18px}.ribbon-preview .icon,.coupon-preview .icon{grid-row:span 2;width:75px;height:85px}.ribbon-preview b,.coupon-preview b{font:20px Arcade;align-self:end}.ribbon-preview span,.coupon-preview span{font:13px Arcade;text-align:left;color:#f1d0b7}
+@keyframes reveal-arrive{from{opacity:0;transform:translateY(16px) scale(.97)}to{opacity:1;transform:none}}
+@keyframes catch-in{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+@keyframes receipt-in{from{transform:translateY(100%)}to{transform:none}}
+@keyframes slice-reveal{from{opacity:0;transform:scale(.2) rotate(-35deg)}to{opacity:1;transform:none}}
+@keyframes bill-relight{0%,20%{opacity:1;transform:none}25%,55%{opacity:0;transform:translateX(15px) scale(.1)}75%{opacity:1;transform:scale(1.4)}100%{opacity:1;transform:none}}
+@keyframes balloon-bill{from{opacity:.17;transform:translateY(30px) scale(.75)}60%{transform:translateY(-8px) scale(1.08)}to{opacity:1;transform:none}}
+@keyframes guest-crash{from{opacity:0;transform:translateX(70px) rotate(15deg)}to{opacity:1;transform:none}}
+@keyframes contract-seal{from{opacity:0;transform:translateY(-80px) scale(1.7)}to{opacity:1;transform:none}}
+@keyframes stamp-catch{from{opacity:0;scale:1.8}to{opacity:1;scale:1}}
+@keyframes reserved-seat{from{opacity:0;transform:translateY(60px) rotate(-15deg)}to{opacity:1;transform:none}}
+@keyframes cleanup-pop{0%,42%{transform:none}48%{transform:scale(.9,1.1)}55%{transform:translateY(-45px) rotate(-8deg) scale(1.3)}70%,100%{transform:translateY(90px) scale(.35);opacity:.45}}
+@keyframes fee-explosion{0%{opacity:0;transform:scale(.2)}10%{opacity:1}70%{transform:translate(var(--x),var(--y)) rotate(var(--tilt)) scale(1.1)}100%{opacity:1;transform:translate(var(--gx),var(--gy)) rotate(0deg)}}
+@keyframes old-unit-out{to{opacity:0;transform:translateY(-10px)}}
+@keyframes inch-mark{from{opacity:0;transform:scaleY(0)}to{opacity:1;transform:none}}
+@keyframes digit-join{to{transform:translateX(calc((var(--to) - var(--from))*130px)) rotate(0deg)}}
+@keyframes sign-vanish{to{opacity:0;transform:translateY(-30px) scale(.3)}}
+@keyframes coupon-turn{to{transform:rotateY(180deg)}}
+@media(prefers-reduced-motion:reduce){
+  .scam-reveal *{animation-duration:.01ms!important;animation-delay:0ms!important}
+  .scam-reveal{animation:none}.fee-ticket{display:none}.coupon-flip{transform:rotateY(180deg)}
+}
+
+.ruler-caption{display:block;font:10px Arcade;letter-spacing:.5px;color:#f5d6be;margin:-2px 0 12px}
+
+.cleanup-sprite .icon{position:absolute;inset:0}.cleanup-body{clip-path:inset(40% 0 0)}.cleanup-cap{clip-path:inset(0 0 60%);animation:cleanup-cap-off 1.15s both;animation-delay:calc(1.8s - var(--elapsed))}
+@keyframes cleanup-cap-off{0%{transform:none;opacity:1}65%{transform:translate(-40px,-100px) rotate(-25deg);opacity:1}100%{transform:translate(-80px,-170px) rotate(-40deg);opacity:0}}

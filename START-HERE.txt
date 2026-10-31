@@ -1,5 +1,5 @@
 FAITH'S BIRTHDAY SCAM WHEEL — PUBLIC BROWSER EDITION
-October 30, 2026 — Royal Popper update
+October 30, 2026 — Surprise-catch games and small edge accents
 
 Open https://jhm-hub.github.io/birthday-scam-wheel/ — no sign-in required.
 For local practice, you can also open Birthday-Scam-Wheel.html.
@@ -12,26 +12,28 @@ The prices below are starting suggestions for Faith to review, not fixed require
 
 A FULL ROUND
 Enter the player name, press New round, and use Spin twice for normal prizes.
-The third press reveals one of the enabled birthday games. The earlier cash stays banked.
-Use the large button and any choices that appear. The end card shows the final total.
-Pause prevents the next action; a spin already moving is allowed to finish.
+The third press reveals one of the enabled birthday games. The earlier amounts stay on the bill.
+Use the large button and any choices that appear. Each game builds a modest-looking quote,
+then reveals the birthday catch and shows the exact added charge. The end card shows the
+whole round bill. The popper waits for Pull the cord; other catches play automatically.
+Pause prevents the next action; a spin or reveal already moving is allowed to finish.
 New round cancels the current game and clears that round's total.
 Sound starts off. Enable it with Sound off, then test the audio before streaming.
 
-THE TEN NEW SCAMS
-1. Layer Cake Levy: Three layers. Every new layer charges the whole cake again.
-2. Trick Candle Club: Blow out candles for cash; they relight at higher values.
-3. Balloon Avalanche: Pop a balloon and every connected balloon of its color.
-4. The Plus-One Problem: Add guests; each completed table adds another bonus.
-5. Wishful Spending: Choose two wishes; repeated matches get a bigger bonus.
-6. Musical Shares: A removed chair pays you and shares its value with neighbors.
-   After three removals, the richest surviving chair pays a final throne bonus.
-7. Party Popper Payday: Three spins put visible cash into one popper.
-   Pull the cord to collect everything inside plus the editable birthday bonus.
-8. Ribbon Runaround: Unroll ribbon and collect each milestone bonus you cross.
-9. Birthday Photo Finish: Print three digits, then arrange them into the bill.
-10. Birthday Bingo: Five draws. Every stamp pays; completed lines add bonuses.
-    A repeated number moves clockwise to the next empty square.
+THE TEN BIRTHDAY CATCHES
+1. Just One Slice: Spin for a slice price. The catch: Faith sells the whole eight-slice cake. The cake opens up and all eight slices are charged at that price.
+2. Wish Again: Three puffs pay the candles you blow out; each relights at a higher price. The catch: all four burning candles go on the final bill again, at their new prices.
+3. The Whole Bunch: Three pops charge connected matching balloons and a bonus for a chain of three or more. The catch: the balloons still standing are part of the set. They get charged too.
+4. Plus-Ones Have Plus-Ones: Two spins invite guests, with cover per person and service per full table of three. The catch: every guest brings a plus-one, and all those guests bring another. The guest list quadruples; the extra people and new tables join the bill.
+5. Wishful Spending: Pick two wishes. Three spins pay a base gift plus a bonus on a chosen wish; repeat matches double that bonus. The catch: the birthday wish doubles the entire bill, including the two ordinary spins before this game.
+6. Reserved For Everyone: Three spins charge a chair and pass its value to its two neighbors. The catch: every chair still at the table is on your reservation. All remaining chair prices are added together and charged once.
+7. Confetti Cleanup: Three cash spins fill one popper. Each unit of cash also loads one confetti ticket. Pull the cord: the cash comes out, followed by a cleaning charge for every ticket. The piece count and editable fee are shown in the reveal.
+8. Wrapping Not Included: Spin for one to six feet of ribbon, initially quoted at the base price per foot. The catch: the price tag says per inch. Every foot unfolds into twelve priced inches, making the ribbon bill twelve times the quote.
+9. Say Fees!: Three photos print digits one to six. They first look like three small amounts added together. The catch: the plus signs vanish and the photos slide into the largest possible three-digit bill, multiplied by the editable number rate.
+10. Birthday Discount*: Spin a gift price, then a coupon marked 25, 50, 75 or 100 percent off. The catch: the coupon flips from OFF to ON. That percentage is added to the gift price. The bill never decreases; amounts round to the nearest cent.
+
+Watch sample plays a complete example. Wishful Spending includes its two ordinary
+spins so you can see those amounts get caught by the final doubling.
 
 MAKE IT YOURS
 Prices & settings edits game names, amounts, enabled games, spin length, and sound level.
@@ -57,10 +59,17 @@ The wheel reads chat and never sends chat messages.
 !birthday spin
 !birthday new Player Name
 !birthday demo 1  (choose 1 through 10)
-!birthday pick 1  (wishes or photo order; choices are numbered left to right)
-!birthday confirm  (lock wishes, charge the photo number, or pull the popper cord)
+!birthday pick 1  (wishes only; choices are numbered left to right)
+!birthday confirm  (lock wishes or reveal the catch / pull the popper cord)
 !birthday pause / !birthday resume
 The original !scam commands are untouched.
 
 This is a separate birthday project. The existing Scam Wheel, Darts, Gift Pile,
 Pinata and Vault projects have not been changed.
+
+ART AND THIS UPDATE
+The simple arcade rim and pointer are restored. Small candy, heart and star accents
+sit around its edge. The full decorative frame is not used around the wheel.
+All ten games now have a staged catch, a distinct animated prop and a readable
+receipt. The amounts are still editable. Refresh both viewer and controls after
+updating so they use the same game version.

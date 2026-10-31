@@ -34,18 +34,27 @@ other stream games. The earlier owner-private Site remains a historical preview.
 Live broadcaster chat, audio routing, and an actual OBS/Streamlabs session remain
 operator acceptance checks, not inferred from model tests.
 
-## Royal Popper update
+## Birthday catch update
 
-Party Popper Payday replaces the old four-cannon Confetti Overload mechanic. Three
-cash spins fill one popper; the pull pays the stored cash plus an explicit birthday
-bonus. The screen shows all three deposits and the exact sum before confirmation.
-Sample rounds hold that sum briefly before the big pull.
+The ten games now stage a small-looking quote followed by an explicit animated catch:
+a whole cake, relit candle bill, the unpopped balloons, cascading plus-ones, a whole-round
+wish, a full table reservation, confetti cleaning fees, per-inch ribbon, concatenated
+photo digits, and a discount that flips into a surcharge. Settings v3 migrates old
+default names while preserving custom names and current explicit zero fees.
 
-The wheel frame and popper were generated with the built-in image-generation tool
-using Faith’s approved Crown Vault and Birthday Royalty candy as style references.
-The candy atlas is reused without pixel edits. Transparent PNGs and exact prompts
-are in `assets/royal/`. Interface labels and totals remain live text.
+The reveal freezes its exact math after the final spin. The additional charge commits
+once after the animation; reset invalidates that pending commit. The operator can
+pull the popper manually; samples handle it automatically. State schema v2 prevents
+old control/viewer versions from mixing incompatible game mechanics.
+
+The simple rim is restored. Small decorations reuse the approved candy atlas.
+The previously generated frame is retained as an asset for the small crown crop,
+but no full frame is rendered around the wheel. All live figures remain text.
+Original asset prompts are in assets/royal/. Reveal props use native SVG/CSS.
+
+src/reveals.js and src/reveals.css implement the ten staged props and receipts.
+The build embeds those styles and all required assets into the portable HTML.
 
 The GitHub release source excludes local reviews, room state, Sites metadata,
-credentials and the other games. `.github/workflows/pages.yml` tests and builds
-the exact commit before publishing `dist` to GitHub Pages.
+credentials and other games. .github/workflows/pages.yml tests and builds
+the exact commit before publishing dist to GitHub Pages.
