@@ -22,3 +22,5 @@ img.icon{object-fit:contain}
 .party-ornaments{z-index:2}.ornament{width:38px!important;height:38px}.o0,.o1{width:45px!important;height:45px}
 
 .saved-versions{padding:18px 20px;border:1px solid #e7cddd;border-radius:16px;background:#fff7fc;max-width:750px;margin-bottom:22px}.saved-versions select{display:block;width:100%;padding:12px;margin-top:6px;border:1px solid #d9bbd7;border-radius:9px;background:#fff;color:#76557d;font:14px system-ui}.saved-versions button{margin:4px 8px 4px 0}
+
+.home-link{display:inline-flex;align-items:center;white-space:nowrap;border:1px solid #cfaed0;border-radius:20px;padding:8px 12px;text-decoration:none;font-size:11px;color:#714b77}.home-link:hover{background:#f5e3f1}.home-link:focus-visible{outline:3px solid #8b3ca4;outline-offset:3px}
