@@ -20,3 +20,5 @@ img.icon{object-fit:contain}
 
 /* Small edge accents; the original arcade rim and pointer stay visible. */
 .party-ornaments{z-index:2}.ornament{width:38px!important;height:38px}.o0,.o1{width:45px!important;height:45px}
+
+.saved-versions{padding:18px 20px;border:1px solid #e7cddd;border-radius:16px;background:#fff7fc;max-width:750px;margin-bottom:22px}.saved-versions select{display:block;width:100%;padding:12px;margin-top:6px;border:1px solid #d9bbd7;border-radius:9px;background:#fff;color:#76557d;font:14px system-ui}.saved-versions button{margin:4px 8px 4px 0}

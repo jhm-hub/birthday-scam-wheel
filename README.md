@@ -1,3 +1,5 @@
+Saved settings and permanent OBS source: see SAVED-VERSIONS.md.
+
 # Faith’s Birthday Scam Wheel
 
 A separate browser game with ten original birthday mechanics, editable prices and

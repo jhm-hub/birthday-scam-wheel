@@ -37,8 +37,11 @@ spins so you can see those amounts get caught by the final doubling.
 
 MAKE IT YOURS
 Prices & settings edits game names, amounts, enabled games, spin length, and sound level.
-Apply starts a fresh round. Export settings saves a portable backup.
-Imported settings stay in the form until Apply is pressed.
+Save changes updates the named saved version. Save as new version keeps a copy.
+In private live controls choose the Saved version, then Use saved version on live
+wheel between viewers. Keep one permanent OBS source; no new links are needed.
+Export settings backs up the selected version. Imports stay in the form until saved.
+See SAVED-VERSIONS.md for the short guide.
 
 STREAM VIEW / PRIVATE CONTROLS
 Stream setup creates two private links: controls and transparent viewer.
